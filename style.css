@@ -1,0 +1,355 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Oxygen", sans-serif;
+    /* font-size: 1.4rem; */
+    
+    /* background-color: black; */
+
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+/* header section  */
+header {
+
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-image: url(assets/images/homebg2.jpg);
+    width: 100%;
+    height: 110vh;
+    background-position: center center;
+    z-index: -1;
+    
+}
+
+header .box {
+    background-color: black;
+    height: 110vh;
+    width: 100%;
+    opacity: 0.6;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+/* navbar */
+nav {
+    display: flex;
+    justify-content: center;
+    /* border: solid 2px white; */
+    justify-content: space-around;
+    gap: 22rem;
+    position: relative;
+    z-index: 10;
+    /* margin: 1.3rem 1rem; */
+    padding: 1.5rem 3rem;
+
+    /* justify-content: space-evenly; */
+}
+
+nav img {
+    width: 9rem;
+    height: auto;
+
+}
+
+
+
+ .btn #signin {
+    background-color: red;
+    height: 1.8rem;
+    color: white;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    /* margin: 4px; */
+}
+
+/* Home */
+
+#first {
+    padding-top: 30px;
+    font-weight: 800;
+    font-size: 2.8rem;
+
+}
+
+.para {
+
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0rem;
+    padding: 3rem 7rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    font-family: "Oxygen", sans-serif;
+    /* width: 100vw; */
+    /* border: 2px solid white; */
+
+    /* padding: 1em; */
+
+}
+
+.para p {
+    font-size: 1.4rem;
+    margin: 1rem;
+}
+
+
+/* main section  */
+section{
+    /* position: absolute; */
+    /* position: relative; */
+    filter: invert(0);
+}
+.both {
+    border: 2px solid black;
+    display: flex;
+    /* position: absolute; */
+    height: 85vh;
+    align-items: center;
+    justify-content: center;
+    /* gap: 10rem; */
+    padding: 1.5rem 5rem;
+    background-color: black;
+    color: white;
+    line-height: 1.5;
+
+}
+
+.both img {
+    /* height: 28rem; */
+    width: 31rem;
+    position: relative;
+    z-index: 100;
+    
+}
+/* .image video{
+    position: absolute;
+    top: 10px;
+} */
+.videoss{
+    position: absolute;
+    right: 150px;
+    
+    top: 130px;
+    width: 23rem;
+    }
+/* #hula::before{
+    content: "";
+    background: url(assets/images/tvimg.png) no-repeat center center/cover;
+    background-position: 100px;
+    position: absolute;
+    height: 100rem;
+    width: 1rem;
+    z-index: 100;
+    right: 0px;
+} */
+
+#hero{
+    font-size: 3rem;
+    font-weight: 800;
+    padding: 0px 2rem;
+    /* text-align: center; */
+}
+#heroine{
+    font-size: 1.5rem;
+    padding: 0px 2rem;
+}
+
+
+/* .both video{
+    height: auto;
+    width: 28rem;
+    position: relative;
+}
+
+/* qna section  */
+.qna{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 2px solid red; */
+    align-items: center;
+    line-height: 2;
+    background-color: black;
+    color: white;
+    text-align: center;
+    /* margin-top: 0rem 3rem; */
+    /* gap: 1rem; */
+    padding-top: 4rem;
+    /* height: 90vh; */
+
+}
+.qnaandbuttons{
+    margin: 1rem 0rem;
+}
+.text{
+    font-size: 2.6rem;
+    font-weight: 800;
+    text-align: center;
+    
+}
+.samebox{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 1rem;
+    border: 2px solid black;
+    height: 5.5rem;
+    width: 75vw;
+    margin-top: 1rem;
+    background-color: rgba(74, 74, 74, 0.65);
+    justify-content: space-between;
+    margin: 0.2rem;
+    /* gap: 40rem; */
+   
+    /* position: relative;
+    z-index: 100; */
+}
+.samebox:hover{
+    
+    background-color:  rgba(126, 123, 123, 0.5);
+    cursor: pointer;
+    color: white;
+    
+    
+}
+#btninput2{
+    background-color: black;
+    margin: 0px;
+    font-size: 1.2rem;
+    padding: 1rem 0rem;
+    
+}
+#lasttext{
+    font-size: 0.4rem;
+}
+#plus{
+    background-color: rgba(126, 123, 123, 0);
+    color: white;
+   font-size: 3.5rem;
+   height:100%;
+   width: auto;
+   border: 2px solid transparent;
+   font-weight: 100;
+   right: 0px;
+}
+
+#plus:hover{
+ cursor: pointer;
+}
+
+/* footer section  */
+footer{
+    margin: 4rem 3rem;  
+    /* border: 2px solid white; */
+    padding: 1rem 6rem ;
+    font-weight: 100;
+    height: 60vh;
+    position: absolute;
+    /* top: 0px; */
+    /* display: flex; */
+   
+}
+
+.layout{
+    /* height: 50vh; */
+    /* border: 2px solid red; */
+    /* margin: 1.5rem 0rem; */
+    padding: 1.5rem 0rem;
+}
+
+.list{
+    list-style: none;
+    /* position: relative; */
+    text-decoration: underline;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    grid-gap: 0.8rem;
+     opacity: 0.7;
+}
+.opacity{
+     opacity: 0.7;
+}
+/* Utility Classes */
+
+
+.btn:hover {
+    /* margin: 1rem 0rem; */
+    display: flex;
+    gap: 1.3rem;
+    cursor: pointer;
+
+}
+input {
+
+    padding: 0rem 7rem 0rem 1rem;
+    background-color: rgba(23, 23, 23, 0.6);
+    border: 1px solid red;
+    border-radius: 4px;
+
+    line-height: 1.5;
+    font-size: large;
+    color: white;
+    height: 3rem;
+
+}
+
+ #getbt {
+    background-color: red;
+    color: white;
+    border-radius: 0.2rem;
+    border: 2px solid transparent;
+    height: 3rem;
+    width: 12rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#getbt:hover{
+    cursor: pointer;
+}
+.inbt {
+    display: flex;
+    gap: 0.3em;
+}
+
+.line {
+    width: 100%;
+    height: 0.5rem;
+    background: rgb(35,35,35);
+    /* border: 2px solid red; */
+   
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    position: relative;
+}
+.btn #eng {
+    background-color: rgba(23, 23, 23, 0.6);
+    color: white;
+    padding-left: 1rem;
+    padding-right: 3rem;
+    border: 0.1px solid white;
+    border-radius: 3px;
+    font-size: 1rem;
+    text-align: center;
+    height: 1.8rem;
+    opacity: 10;
+    
+
+}
